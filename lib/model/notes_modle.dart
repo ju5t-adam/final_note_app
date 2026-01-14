@@ -70,7 +70,7 @@ class Notes{
   /// Converts the Notes object to a Map for Firestore storage
   ///
   /// DateTime objects are converted to Firestore Timestamps
-  /// Returns a Map<String, dynamic> compatible with Firestore document structure
+  /// Returns a Map< String, dynamic> compatible with Firestore document structure
   Map<String, dynamic> toMap(){
     return {
       'title': title,
